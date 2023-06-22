@@ -1,5 +1,5 @@
 export default {
-	title: `SpiritualU | Discover Your Inner Spirituality`,
+	title: `SpiritualU`,
 	description: `SpiritiualU is dedicated to help people worldwide in navigativing through the difficult and confusing journey by providing resources that create a roadmap for sucess`,
 	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
 	name: `Odyssey`, // The short name of the business or brand name. Used for things like the copyright in the footer.
