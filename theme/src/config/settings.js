@@ -1,6 +1,6 @@
 export default {
-	title: `Odyssey Astro Theme | A Marketing Website Theme for Startups and Businesses`,
-	description: `A simple, clean, and modern theme for a startup or businesses' marketing website.`,
+	title: `SpiritualU | Discover Your Inner Spirituality`,
+	description: `SpiritiualU is dedicated to help people worldwide in navigativing through the difficult and confusing journey by providing resources that create a roadmap for sucess`,
 	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
 	name: `Odyssey`, // The short name of the business or brand name. Used for things like the copyright in the footer.
   enableThemeSwitcher: true,
