@@ -10,7 +10,7 @@ export const footerSocials = [
     icon: "mdi:youtube",
   },
   {
-    name: 'Github',
+    name: 'Instagram',
     url: 'https://github.com/littlesticks',
     icon: "mdi:github",
   },
