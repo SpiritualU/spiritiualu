@@ -23,15 +23,15 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: 'Further Research',
 		items: [
 			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
+				title: 'NAMI',
+				url: "https://www.nami.org/Blogs/NAMI-Blog/December-2016/The-Mental-Health-Benefits-of-Religion-Spiritual",
 			},
 			{
-				title: 'Landing Page 2',
-				slug: '/landing-pages/landing-2',
+				title: 'Stanford University',
+				url: "https://news.stanford.edu/2020/11/13/deep-faith-beneficial-health/",
 			},
       // {
 			// 	title: 'Landing Page 3',
