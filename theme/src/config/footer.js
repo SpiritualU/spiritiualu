@@ -43,11 +43,11 @@ export const footerLists = [
 		title: 'Company',
 		items: [
 			{
-				title: 'About',
+				title: 'AI Chatbot',
 				slug: '/company/about',
 			},
 			{
-				title: 'Blog',
+				title: 'SoulBlog',
 				slug: '/blog',
 			},
 			{
