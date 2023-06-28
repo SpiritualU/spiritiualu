@@ -27,11 +27,11 @@ export const footerLists = [
 		items: [
 			{
 				title: 'NAMI',
-				url: "https://www.nami.org/Blogs/NAMI-Blog/December-2016/The-Mental-Health-Benefits-of-Religion-Spiritual",
+				slug: "https://www.nami.org/Blogs/NAMI-Blog/December-2016/The-Mental-Health-Benefits-of-Religion-Spiritual",
 			},
 			{
 				title: 'Stanford University',
-				url: "https://news.stanford.edu/2020/11/13/deep-faith-beneficial-health/",
+				slug: "https://news.stanford.edu/2020/11/13/deep-faith-beneficial-health/",
 			},
       // {
 			// 	title: 'Landing Page 3',
