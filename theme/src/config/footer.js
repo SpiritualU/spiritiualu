@@ -61,7 +61,7 @@ export const footerLists = [
 		items: [
 			{
 				title: 'Terms and Conditions',
-				slug: '/theme/get-started',
+				slug: '/company/legal',
 			},
 			
 		],
