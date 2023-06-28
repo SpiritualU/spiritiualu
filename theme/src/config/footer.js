@@ -34,9 +34,9 @@ export const footerLists = [
 				slug: "https://news.stanford.edu/2020/11/13/deep-faith-beneficial-health/",
 			},
     
-			{	title: 'Landing Page 3',
-				slug: '/landing-pages/landing-3',
-			},
+		//	{	// title: 'Landing Page 3',
+				// slug: '/landing-pages/landing-3',
+			//},
 		],
 	},
 	{
