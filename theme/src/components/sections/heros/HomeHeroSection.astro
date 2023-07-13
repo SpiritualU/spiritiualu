@@ -38,7 +38,50 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 	<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   	<script>
     	window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-   	formbutton("create", {action: "https://formspree.io/YOUR_FORM_ID"})
+   	formbutton("create", 
+	{action: "https://formspree.io/Spiritual_U"
+	title: "Donate!",
+	description: "SpiritualU relies on your support!",
+	fields: [{
+      name: "name",
+      type: "text",
+      label: "Name",
+      required: true,
+    },
+    {
+      name: "email",
+      type: "email",
+      label: "Email",
+      required: true
+    },
+    {
+      name: "$1",
+      type: "radio"
+      label: "$1"
+    },
+    {
+	name: "$5",
+	type: "radio"
+	label: "$5"
+    },
+    {
+	name: "$10"
+	type: "radio"
+	label: "$10"
+    },
+    {
+	name: "custom"
+	type: "number"
+	label: "Custom"
+    },
+    {
+      type: "submit"
+    }],
+		
+		
+	
+}
+)
   	</script>
 </Container>
 
