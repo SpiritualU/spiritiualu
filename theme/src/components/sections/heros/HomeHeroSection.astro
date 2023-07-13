@@ -39,7 +39,16 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
   	<script>
     	window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
    	formbutton("create", 
-	{theme: "classic",
+	{styles: {
+      fontFamily:'"Lato", sans-serif',
+      button: {
+        background: "#C4001A"
+      },
+      type.radio: {
+        float: "left",
+      }
+    },
+theme: "classic",
 	action: "https://formspree.io/Spiritual_U",
 	title: "Donate!",
 	description: "SpiritualU relies on your support!",
