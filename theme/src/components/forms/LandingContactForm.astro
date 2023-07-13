@@ -9,8 +9,13 @@ const selectOptions = [
 ]
 
 ---
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/YOUR_FORM_ID"})
+  </script>
 
-<form name="Contact Form" method="POST" action="/contact-thank-you" >
+<!-- <form name="Contact Form" method="POST" action="/contact-thank-you" >
   <FormInput type="text" label="First Name" name="First Name" placeholder="John" />
   <FormInput type="text" label="Last Name" name="Last Name" placeholder="Doe" />
   <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
@@ -26,7 +31,7 @@ const selectOptions = [
       <Icon name="ic:baseline-chevron-right" />
     </Fragment>
   </Button>
-</form>
+</form> -->
 
 <style>
   form {
