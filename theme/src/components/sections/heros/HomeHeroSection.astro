@@ -39,16 +39,7 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
   	<script>
     	window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
    	formbutton("create", 
-	{styles: {
-      fontFamily:'"Lato", sans-serif',
-      button: {
-        background: "#C4001A"
-      },
-      fields: {
-        float: "left",
-      }
-    },
-theme: "classic",
+{theme: "classic",
 	action: "https://formspree.io/Spiritual_U",
 	title: "Donate!",
 	description: "SpiritualU relies on your support!",
@@ -58,6 +49,12 @@ theme: "classic",
       label: "Name",
       placeholder: "John Doe",
       required: true,
+	style: {
+        label: {
+          width: "45%",
+          marginRight: "5%"
+        }
+	}
     },
     {
       name: "email",
@@ -65,6 +62,12 @@ theme: "classic",
       label: "Email",
       placeholder: "abcd@gmail.com",
       required: true,
+	style: {
+        label: {
+          width: "45%",
+          marginRight: "5%"
+        }
+	}
     },
     {
       name: "$1",
